@@ -38,23 +38,28 @@ const arrayLis = [2,3,4,1,2,7,3,6,6,6,7];
 // Recurring(arrayLis);
 
 //(2). Using HashTable - Does two arrays have a common character?
-const array1 = [2, 4, 5, 7, 8, 9, 5];
-const array2 = [9, 1, 3, 0]
+// const array1 = [2, 4, 5, 7, 8, 9, 5];
+// const array2 = [9, 1, 3, 0]
 
-function CommonCharacter(arr1, arr2) {
-    let map = {};
-    for (let i= 0; i < arr1.length; i++){
-        if (map[arr1[i]] === undefined){
-            map[arr1[i]] = true;
-        }
-    }
-    for (let j= 0; j < arr2.length; j++){
-        if (map[arr2[j]]) {
-            return console.log(map[arr2[j]]);
-        }
-    }
-    return console.log(undefined);
-}
+// function CommonCharacter(arr1, arr2) {
+//     let map = {};
+//     for (let i= 0; i < arr1.length; i++){
+//         if (map[arr1[i]] === undefined){
+//             map[arr1[i]] = true;
+//         }
+//     }
+//     for (let j= 0; j < arr2.length; j++){
+//         if (map[arr2[j]]) {
+//             return console.log(map[arr2[j]]);
+//         }
+//     }
+//     return console.log(undefined);
+// }
 
-CommonCharacter(array1, array2);
+// CommonCharacter(array1, array2);
+
+
+
+
+
 
