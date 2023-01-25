@@ -52,3 +52,6 @@ myHashTable.set('apple', 74)
 myHashTable.set('pineapple', 74)
 myHashTable.get('banana')
 myHashTable.key()
+
+
+
